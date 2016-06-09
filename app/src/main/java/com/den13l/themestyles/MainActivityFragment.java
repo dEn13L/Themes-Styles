@@ -34,8 +34,8 @@ public class MainActivityFragment extends Fragment {
 
   private void showThree() {
     LayoutInflater li = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-    for (int i = 0; i < 3; i++) {
-      View itemView = li.inflate(R.layout.item, null, false);
+    for (int i = 0; i < 10; i++) {
+      View itemView = li.inflate(R.layout.item, itemsContainer, false);
       LinearLayout container = (LinearLayout) itemView.findViewById(R.id.itemContainer);
       ImageView imageView = (ImageView) itemView.findViewById(R.id.itemImage);
       Button buttonView = (Button) itemView.findViewById(R.id.itemButton);
