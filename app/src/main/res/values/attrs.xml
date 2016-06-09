@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="itemContainer" format="reference"/>
+  <attr name="itemImage" format="reference"/>
+  <attr name="itemButton" format="reference"/>
+</resources>

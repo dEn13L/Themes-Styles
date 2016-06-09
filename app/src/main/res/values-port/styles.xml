@@ -1,0 +1,42 @@
+<resources>
+
+  <style name="ItemTheme.Tree">
+    <item name="itemContainer">@style/ItemContainer.Tree</item>
+    <item name="itemImage">@style/ItemImage.Tree</item>
+    <item name="itemButton">@style/ItemButton.Tree</item>
+  </style>
+
+  <style name="ItemContainer">
+  </style>
+
+  <style name="ItemContainer.Tree">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    <item name="android:background">@color/colorPrimary</item>
+  </style>
+
+  <style name="ItemImage">
+  </style>
+
+  <style name="ItemImage.Tree">
+    <item name="android:layout_width">100dp</item>
+    <item name="android:layout_height">100dp</item>
+    <item name="android:background">@color/colorPrimaryDark</item>
+    <item name="android:layout_marginRight">20dp</item>
+  </style>
+
+  <style name="ItemButton">
+  </style>
+
+  <style name="ItemButton.Tree">
+    <item name="android:layout_width">150dp</item>
+    <item name="android:layout_height">50dp</item>
+    <item name="android:background">@color/colorAccent</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+</resources>
